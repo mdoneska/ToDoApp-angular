@@ -18,7 +18,7 @@ export class AppComponent {
 this.newTodo=''
   }
   else{
-    alert("Please enter todo")
+    alert("Please enter todo");
   }
  }
  done(id:number){

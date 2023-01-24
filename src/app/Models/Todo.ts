@@ -1,5 +1,5 @@
-export class Todo{
-    
-   name!:string;
-    isCompleted!:boolean;
+export class Todo {
+
+    name!: string;
+    isCompleted!: boolean;
 }
