@@ -21,4 +21,13 @@ this.newTodo=''
     alert("Please enter todo")
   }
  }
+ done(id:number){
+  this.todos[id].isCompleted=!this.todos[id].isCompleted
+  }
+remove(id:number){
+  this.todos=this.todos.filter((v,i ) =>i!== id);
+  
 }
+}
+
+
